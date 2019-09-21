@@ -18,7 +18,7 @@
         <tr id="table-header">
             <th>Where You'll Go |</th>
             <th> What Train You'll Be On |</th>
-            <th> You're Chance to Leave, Every... |</th>
+            <th> You're Chance to Leave, Every... (min) |</th>
             <th> When You Can Jump On Next |</th>
             <th> How Long You Have to Wait</th>
         </tr>
@@ -45,12 +45,13 @@
             <label>Frequency (min)</label>
             <input type="number" class="form" id="minutes" placeholder="15">
         </div>
-        <button id="add-train" type="submit" class="btn btn-primary">Submit</button>
+        <button id="add" type="submit" class="btn btn-primary">Submit</button>
         </form>
     </form>
 </div>
 
 <script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
 <script src="javascript.js"></script> 
