@@ -2,3 +2,75 @@
     font-family: 'Quicksand', sans-serif;
 
 }
+body {
+    background-color: #d8ecf3;
+}
+header {
+    background-color: #8ac7db;
+    text-align: center;
+    padding: 0.5%;
+    margin-bottom: 1%;
+}
+h1 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1.2rem;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    font-size: 26px;
+    margin: 0 0 0.5%;
+}
+#train-times {
+    background-color: #c4e3ed;
+    width: 95%;
+    margin-left: 1.5%;
+    padding: 1%;
+    border: 2px solid #cccccc;
+}
+#table-header {
+    background-color: #8ac7db;
+}
+#table {
+    border: 2px solid #bfbfbf;
+    border-bottom: none;
+    border-right: none;
+    width: 100%;
+}
+#tbody {
+    background-color: #f2f2f2;
+}
+tr {
+    border-bottom: 2px solid #bfbfbf;
+}
+th, td {
+    border-right: 2px solid #bfbfbf;
+    padding: 0.5% 1%;
+}
+form {
+    background-color: #f2f2f2;
+    border: 2px solid #a9a9a9;
+    width: 33.33%;
+    margin: 2% 0 0 32%;
+    padding: 1%;
+}
+.form-div {
+    margin-bottom: 0.5%;
+}
+label {
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+}
+input {
+    width: 99%;
+}
+#add {
+    background-color: #8ac7db;
+    border: 0.5px solid #a9a9a9;
+    margin-top: 3%;
+}
+#add:hover {
+    background-color: #30819c;
+}

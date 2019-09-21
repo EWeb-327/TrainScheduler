@@ -26,7 +26,7 @@ var firebaseConfig = {
       var tRemainder = diffTime % frequency;
       var tMinutesTillTrain = frequency - tRemainder;
       var nextTrainEq = moment().add(tMinutesTillTrain, "minutes");
-      var nextTrain = moment(nextTrainEq).format("hh:mm");
+      var nextTrain = moment(nextTrainEq).format("hh:mm A");
 
 
       database.ref().push({

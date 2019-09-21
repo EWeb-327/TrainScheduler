@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Scheduler</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,10 +17,10 @@
     <table id="table">
         <thead>
         <tr id="table-header">
-            <th>Where You'll Go |</th>
-            <th> What Train You'll Be On |</th>
-            <th> You're Chance to Leave, Every... (min) |</th>
-            <th> When You Can Jump On Next |</th>
+            <th>Where You'll Go</th>
+            <th> What Train You'll Be On</th>
+            <th> You're Chance to Leave, Every... (min)</th>
+            <th> When You Can Jump On Next</th>
             <th> How Long You Have to Wait</th>
         </tr>
         </thead>
@@ -29,20 +30,20 @@
 </div>
 <div id="add-train">
     <form>
-        <div id="train-name">
-            <label>Train Name</label>
+        <div id="train-name" class="form-div">
+            <label>Train Name</label><br>
             <input type="text" class="form" id="train" placeholder="Train Name">
         </div>
-        <div id="destination">
-            <label>Destination</label>
+        <div id="destination" class="form-div">
+            <label>Destination</label><br>
             <input type="text" class="form" id="place" placeholder="Where to Go">
         </div>
-        <div id="first-train-time">
-            <label>Time of First Train (HH:mm - military time)</label>
-            <input type="time" class="form" id="time" placeholder="00:00">
+        <div id="first-train-time"class="form-div">
+            <label>Time of First Train (HH:mm - military time)</label><br>
+            <input type="text" class="form" id="time" placeholder="00:00">
         </div>
-        <div id="frequency">
-            <label>Frequency (min)</label>
+        <div id="frequency" class="form-div">
+            <label>Frequency (min)</label><br>
             <input type="number" class="form" id="minutes" placeholder="15">
         </div>
         <button id="add" type="submit" class="btn btn-primary">Submit</button>
